@@ -15,7 +15,7 @@
                             <h2>{{ post.title }}</h2>
                             <hr class="star-primary">
 							{% if  post.imgs %}
-								{% for subimg in img/{{post.imgs}} %}
+								{% for subimg in img/{{ post.imgs }} %}
 									<div class="col-sm-4 portfolio-item">
 										
 										<div class="caption">
@@ -23,11 +23,9 @@
 												<i class="fa fa-search-plus fa-3x"></i>
 											</div>
 										</div>
-										<img src="img/{{post.img1}}/{{ subimg }}" class="img-responsive" alt="zut">
-										
+										<img src="img/{{ post.img1 }}/{{ subimg }}" class="img-responsive" alt="zut">
 									</div>
-								{% endfor %}
-						
+								{% endfor %}						
 							{% endif %}
 							
 							{% if  post.img %}
