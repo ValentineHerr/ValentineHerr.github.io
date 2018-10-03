@@ -3,7 +3,6 @@ layout: default
 modal-id: 1
 title: Carbon Cycle
 date: 2014-07-18
-img: my_arrows.gif
 imgs: ForC
 alt: image-alt
 project-date: 2018
