@@ -14,13 +14,16 @@
                         <div class="modal-body">
                             <h2>{{ post.title }}</h2>
                             <hr class="star-primary">
-							{% if  post.imgs %}
-								{% for subimg in img/{{ post.imgs }} %}
-									<div class="col-sm-4 portfolio-item">
-										<img src="img/{{ post.img1 }}/{{ subimg }}" class="img-responsive" alt="zut">
-									</div>
-								{% endfor %}						
-							{% endif %}
+							
+							 <div class="row">
+								{% if  post.imgs %}
+									{% for subimg in img/{{ post.imgs }} %}
+										<div class="col-sm-4 portfolio-item">
+											<img src="img/{{ post.img1 }}/{{ subimg }}" class="img-responsive" alt="zut">
+										</div>
+									{% endfor %}						
+								{% endif %}
+							</div>
 							
 							{% if  post.img1 %}
 							<img src="img/portfolio/{{ post.img1 }}" class="img-responsive img-centered" alt="{{ post.alt }}">
