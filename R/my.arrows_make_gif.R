@@ -2,6 +2,8 @@ library(magick)
 
 rm(list = ls())
 
+setwd('C:/Users/HerrmannV/Dropbox (Smithsonian)/GitHub/ValentineHerr.github.io/')
+
 source("R/my.arrows.R")
 
 r = 2
@@ -18,7 +20,7 @@ for(r in 1:100){
   print(r)
  ( i <- sample(x = 1:nrow(X), size = 1))
   
-  png("arrows.png", width = 200, height = 200, units = "px", res = 96, )
+  png("arrows.png", width = 900, height = 650, units = "px", res = 96 )
   par(mar = c(0,0,0,0))
   plot(-2:2, -2:2, axes = F, xlab = "", ylab= "", type = "n")
   arrow.coordinates <- as.list(X[i,])
@@ -30,7 +32,7 @@ for(r in 1:100){
   
   img <- image_read("arrows.png")
   
-  if(r == 1 ) all_img <- img else  all_img <- image_scale(c(all_img, img), "200")
+  if(r == 1 ) all_img <- img else  all_img <- image_scale(c(all_img, img))
   
  
 }
