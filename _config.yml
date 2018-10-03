@@ -7,6 +7,10 @@ keywords: "Valentine HERRMANN, Valentine, Herrmann, Research assistant, Data Man
 skills: "Research Assistant - R scripts Developer - Data Management - Data Analysis"
 meta_author: Herrmann Valentine
 
+# enable Jekyll SEO tag plugin
+plugins:
+  - jekyll-seo-tag
+
 # Google webmaster tools
 google_verify:
 
