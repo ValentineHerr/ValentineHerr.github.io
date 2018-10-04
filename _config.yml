@@ -56,7 +56,7 @@ social:
   - title: linkedin
     url : https://www.linkedin.com/in/valentine-herrmann-ab6a0474/
   - title: stack-overflow
-  url: https://stackoverflow.com/users/7254069/valentine
+    url: https://stackoverflow.com/users/7254069/valentine
 
 # Postal address (add as many lines as necessary)
 address:
