@@ -4,7 +4,8 @@ modal-id: 1
 title: Carbon Cycle
 date: 2014-07-18
 img: my_arrows.gif
-imgs: [Boreal conifer MATURE.png, Boreal conifer YOUNG.png]
+imgs: [Boreal conifer MATURE.png, Boreal conifer YOUNG.png, Temperate broadleaf MATURE.png, Temperate broadleaf YOUNG.png, Temperate conifer MATURE.png, 
+Temperate conifer YOUNG.png, Tropical broadleaf MATURE.png, Tropical broadleaf YOUNG.png]
 alt: image-alt
 project-date: 2018
 client: ForC_db
