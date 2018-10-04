@@ -4,7 +4,7 @@ modal-id: 1
 title: Carbon Cycle
 date: 2014-07-18
 img: my_arrows.gif
-imgs: ForC
+imgs: [Boreal conifer MATURE.png, Boreal conifer YOUNG.png]
 alt: image-alt
 project-date: 2018
 client: ForC_db
