@@ -36,7 +36,7 @@ color:
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
+  copyright: Valentine Herrmann
   location: Location
   social: Around the Web
   credits: Credits
@@ -64,7 +64,7 @@ address:
   - line: Front Royal, VA 20106
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'This website was built off of the free to use, open source Bootstrap theme <strong>Freelancer<\strong> created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
 markdown: kramdown
