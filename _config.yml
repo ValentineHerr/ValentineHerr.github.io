@@ -47,8 +47,6 @@ social:
 #    url: http://twitter.com/jekyllrb
 #  - title: facebook
 #    url:
-  - title: stack-overflow
-    url: https://stackoverflow.com/users/7254069/valentine
 #  - title: bitbucket
 #    url: http://bitbucket.org/jekyll
   - title: github
@@ -57,9 +55,12 @@ social:
     url: https://scholar.google.fr/citations?user=oPO7Zz0AAAAJ&hl=fr
   - title: linkedin
     url : https://www.linkedin.com/in/valentine-herrmann-ab6a0474/
+  - title: stack-overflow
+  url: https://stackoverflow.com/users/7254069/valentine
 
 # Postal address (add as many lines as necessary)
 address:
+  - line: Smithsonian Conservation Biology Institute
   - line: 1500 remount Road
   - line: Front Royal, VA 20106
 
