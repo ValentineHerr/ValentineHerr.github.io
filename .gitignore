@@ -3,3 +3,4 @@ _site
 .jekyll-metadata
 Gemfile.lock
 R/my.arrows_make_gif.R
+.Rhistory
