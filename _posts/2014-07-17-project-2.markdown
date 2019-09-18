@@ -4,11 +4,11 @@ modal-id: 2
 title: R as a GIS tool
 date: 2014-07-17
 img: World_Map_with_Biogeographic_regions_and_sites.png
-imgs: [Boreal conifer MATURE.png, Boreal conifer YOUNG.png, Temperate broadleaf MATURE.png]
+imgs: [TropForC_Fig1_biogeog7.tif, World_Map_with_Biogeographic_regions_and_sites.png]
 alt: image-alt
 project-date: 2018
 client: ForC_db
 clienturl: "https://forc-db.github.io"
 source: "https://github.com/forc-db/ForC/blob/master/scripts/Figures/Create_data_for_World_Map_with_Biogeographic_regions_and_sites.R"
-description: I always enjoy the challenge of creating a beautiful and complex map in R. Here I had to recreate the left map, including the inlet figures after new data was added to the <a href="https://forc-db.github.io">ForC database</a>. The original picutre was created in a licensed GIS software and an image editing program, necessiting someone to redo the figure "by hand" everytime the data changed. Now my R script can be run to update the figure and the output looks like the right picture automatically.test
+description: I always enjoy the challenge of creating a beautiful and complex map in R. Here I had to recreate the left map, including the inlet figures after new data was added to the <a href="https://forc-db.github.io">ForC database</a>. The original picutre was created in a licensed GIS software and an image editing program, necessiting someone to redo the figure "by hand" everytime the data changed. Now my R script can be run to update the figure and the output looks like the right picture automatically.
 ---
