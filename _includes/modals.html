@@ -27,6 +27,19 @@
 								{% endif %}
 							</div>
 							
+								 <div class="row">
+								{% if  post.img2 %}
+									{% for subimg in post.imgs %}
+										<div class="col-sm-2  portfolio-item">
+											<a target="_blank" href="img/portfolio/{{ subimg }}">
+												<img src="img/portfolio/{{ subimg }}" class="img-responsive" alt="crotte">
+											</a>
+										</div>
+									{% endfor %}						
+								{% endif %}
+							</div>
+							
+							
 							{% if  post.img1 %}
 							<img src="img/portfolio/{{ post.img1 }}" class="img-responsive img-centered" alt="{{ post.alt }}">
 							{% endif %}
